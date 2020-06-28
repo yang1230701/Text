@@ -1,0 +1,75 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+body {
+	font: 14px "Microsoft YaHei",Î¢ÈíÑÅºÚ,STHeiti,"WenQuanYi Micro Hei",SimSun,sans-serif;
+	background: #f3f3f3;
+}
+.main {
+	width: 340px;
+	background: white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	border-radius: 5px;
+}
+.item {
+	width: 340px;
+	height: 60px;
+	background: #eeeeee;
+}
+.item a {
+	width: 170px;
+	height: 60px;
+	display: inline-block;
+	color: black;
+	font-size: 18px;
+	text-align: center;
+	line-height: 60px;
+	text-decoration: none;
+}
+.denglu {
+	float: left;
+	
+}
+.zhuce {
+	float: left;
+	background: white;
+}
+.content {
+	width: 100%;
+}
+.article{
+	color: #4a4a4a;
+	margin: 20px 30px 20px 30px;
+	text-align: left;
+}
+p {
+	color: #4a4a4a;
+	margin-top: 30px;
+	margin-bottom: 6px;
+	font-size: 15px;
+}
+.article .text-border {
+	width: 258px;
+	height: 40px;
+	border-radius: 3px;
+	border: 1px solid #adadad;
+	padding: 0px 10px;
+}
+.submit {
+	margin-top: 40px;
+	width: 280px;
+	height: 40px;
+	border-radius: 5px;
+	border: 1px solid #adadad;
+	color: white;
+	background: #00dd60;
+	letter-spacing: 5px;
+	margin-bottom: 20px;
+}
+.item a:hover {
+	background: #f6f6f6;
+}
